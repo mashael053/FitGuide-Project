@@ -1,0 +1,226 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+nav{
+    background-color: rgb(195, 184, 206, .32);
+    height: 5rem;
+    color:rgb(153, 107, 191);
+    font-size: 1.5rem;
+    font-family:Arial, Helvetica, sans-serif;
+    box-shadow:0px 10px 8px rgb(215, 212, 216 );
+    font-weight: bold;
+}
+nav h2{
+    font-style: italic; 
+    font-size: 2rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+
+}
+
+.Def-page-one{
+text-align: center; color: #000;
+font-family: Inter;
+font-size: 80px;
+font-style: normal;
+font-weight: 800;
+line-height:normal;
+
+}
+
+.title-project{
+    color: #996BBF;
+
+font-family: Inter;
+font-size: 70px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+
+.LOG-SIN{
+    color: #996BBF;
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: #996BBF;
+    width: 224px;
+    height: 81px;
+    flex-shrink: 0;
+    text-align: right;
+
+}
+
+
+/* ----------------- Start page 2 Sin Up---------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+   display: flex;
+   flex-direction: column;
+}
+
+ nav{
+    position: fixed;
+    background-color: rgb(195, 184, 206, .32);
+    height: 5rem;
+    color:rgb(153, 107, 191);
+    font-size: 1.5rem;
+    font-family:Arial, Helvetica, sans-serif;
+    box-shadow:0px 10px 8px rgb(215, 212, 216);
+    font-weight: bold;
+}
+nav h2{
+    font-style: italic;
+    font-size: 2rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+
+}
+
+.contaier{
+    width: 100%;
+    display: flex;
+   flex-direction: column;    
+   align-items: center;
+   justify-content: center;
+   
+}
+
+img{
+    width: 500px;
+    height: 500px;
+}
+
+
+/* ----------------- End page 2 Sin Up---------------- */
+
+
+
+/* ----------------------start page 3 "week-plan"------------------ */
+
+.sec1{
+    height: 425px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% auto; 
+    background-color: rgb(195, 184, 206, .32);
+    box-shadow:0px 10px 8px rgb(215, 212, 216);  
+    justify-content: center;
+    align-items: center;
+}
+
+.sec1-text {
+    font-family:Arial, Helvetica, sans-serif;
+    display: grid;  
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: left;   
+      
+ }
+.sec1-text h1{
+     font-size: 90px;
+     color:rgb(153, 107, 191);
+     
+}
+.sec1-text h5{
+    font-size:50px;  
+    text-decoration: underline rgb(160, 192, 197); 
+ }
+ .sec1-text p{
+    font-size: 30px;
+      
+ }
+
+ .sec2{
+    display: grid;
+    grid-template-columns: 70% auto;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    gap: .5rem;
+
+ }
+ .sec2-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: .5rem;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+ }
+ .sec2 .days{
+    background-color: rgb(148, 155, 209, .89);
+    width: 250px;
+    height: 308px;
+    border-radius: 90px;
+    border:solid rgba(157, 86, 215, 0.23);
+ }
+.sec2 h5{
+    font-size: 40px;
+}
+.sec2-1 img{
+    width: 120px;
+    height: 250px;
+}
+
+
+
+/* ----------------------End page 3 "week-plan"------------------ */
+
+
+
+/* ----------------------Start page 4 "Day-plan"------------------ */
+
+.sec1{
+    height: 200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto; 
+    font-family:Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 90px;
+    color:rgb(153, 107, 191);
+}
+
+ .sec2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+
+ }
+
+ .sec2 .workout{
+    background-color: rgb(148, 155, 209, .89);
+    width: 250px;
+    height: 308px;
+    border-radius: 90px;
+    border:solid rgba(149, 31, 246, 0.23);
+ }
+ .sec2 img{
+    width: 200px;
+    height: 210px;
+}
+
+
+/* ----------------------End page 4 "Day-plan"------------------ */
+
+
+
+
+
